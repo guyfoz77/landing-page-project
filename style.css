@@ -1,3 +1,16 @@
 body {
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;  
+    color: #f9faf8;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
 }
