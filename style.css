@@ -10,6 +10,32 @@ body {
     color: #f9faf8;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.header-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    font-weight: normal;
+}
+
+.hlink {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
