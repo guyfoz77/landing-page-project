@@ -9,7 +9,7 @@ body {
     background-color: #1f2937;  
     color: #f9faf8;
 }
-
+/* Header */
 .header {
     display: flex;
     justify-content: space-around;
@@ -17,9 +17,7 @@ body {
     font-weight: bold;
     align-items: center;
     padding: 10px;
-
 }
-
 .header-links {
     margin: 0;
     padding: 0;
@@ -28,14 +26,12 @@ body {
     gap: 10px;
     font-weight: normal;
 }
-
 .hlink {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-
 }
-
+/* ############ */
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
