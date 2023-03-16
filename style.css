@@ -101,6 +101,7 @@ p {
 .image,
 .subtext {
     max-width: 150px;
+    text-align: center;
 }
 
 .image {
