@@ -32,9 +32,7 @@ body {
     font-size: 18px;
 }
 /* ############ */
-/* Hero 
-        *button styling needs completing
-*/
+/* Hero */
 
 .hero {
     display: flex;
@@ -46,6 +44,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     max-width: 500px;
+    gap: 10px;
 }
 
 .hero-text {
@@ -56,10 +55,21 @@ body {
 .hero-image {
     width: 400px;
     height: 200px;
+    min-width: 400px;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.signup-button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
 }
 
 /* ############ */
