@@ -106,7 +106,26 @@ body {
 }
 
 /* ############ */
+
+/* quote */
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
+    display: flex;
+    padding: 100px 300px;
+    flex-direction: column;
+    align-items: center;
 }
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+.quote-credit {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+/* ############ */
