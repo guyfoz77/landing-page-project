@@ -1,2 +1,2 @@
 # landing-page-project
-Project for the Odin project.
+Trying out my new HTML and CSS skills by building a landing page
