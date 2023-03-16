@@ -164,3 +164,13 @@ need to center the text under the images */
     flex-direction: column;
 }
 /* ############ */
+/* footer */
+.footer {
+    font-size: small;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ############ */
