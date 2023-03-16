@@ -14,9 +14,7 @@ p {
     padding: 0;
     margin: 5px;
 }
-img {
-display: block;
-}
+
 /* Header */
 .header {
     display: flex;
@@ -68,6 +66,8 @@ display: block;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .signup-button {
@@ -78,6 +78,10 @@ display: block;
     font-size: 18px;
     font-weight: bold;
     border: 0;
+}
+.disclaimer {
+    padding-left: 70%;
+    font-size: xx-small;
 }
 /* ############ */
 /* Info */
@@ -117,8 +121,7 @@ display: block;
 
 /* ############ */
 
-/* quote
-need to center the text under the images */
+/* quote*/
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
